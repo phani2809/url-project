@@ -21,7 +21,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 
-const API_BASE_URL = ' https://url-project-upvm.onrender.com';
+const API_BASE_URL = 'https://url-project-upvm.onrender.com';
 
 const UrlShortener = () => {
   const [originalUrl, setOriginalUrl] = useState('');
